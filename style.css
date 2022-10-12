@@ -1,0 +1,258 @@
+
+#navbarSupportedContent ul li a{
+    color: black;
+    margin: 10px;
+    }
+    #navbarSupportedContent ul li a:hover{
+       
+        transition: .7s linear;
+    
+        }
+    
+    .navbar-toggler{
+        border:0;
+    }
+    .navbar-toggler:focus,
+    .navbar-toggler:active,
+    .navbar-toggler-icon:focus{
+       outline: none; 
+       box-shadow: none;
+       border: 0;
+    }
+    .toggler-icon{
+        width:25px;
+        height: 3px;
+        background-color: grey;
+        display: block;
+        transition: all 0.4s;
+    }
+    .middle-bar, .top-bar, .bottom-bar{
+        margin: 5px auto;
+        margin-left: 100px;
+        border: 1px solid gray;
+       
+    }
+    .navbar-toggler .top-bar{
+        transform: rotate(45deg);
+        transform-origin: 10% 10%;
+       
+    }
+    .navbar-toggler .middle-bar{
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+    .navbar-toggler .bottom-bar{
+        transform: rotate(-45deg);
+        transform-origin: 10% 10%;
+    }
+    
+    .navbar-toggler.collapsed .top-bar{
+        transform: rotate(0);
+      
+    }
+    .navbar-toggler.collapsed .middle-bar{
+        transform: rotate(0);
+        opacity: 1;
+        filter: alpha(opacity=100);
+    }
+    .navbar-toggler.collapsed .bottom-bar{
+        transform: rotate(0);
+       
+    }
+    
+    .navbar-toggler .collapsed .toggler-icon{
+        background-color: black;
+    }
+    .navbar{
+        background: lightblue;
+    }
+    .nav-link:hover{
+        border-bottom: 4px solid aqua;
+        padding: 2px;
+        
+    }
+    .navbar-brand{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 900;
+        font-size: 28px !important;
+       
+    }
+    /* .cont-2 h3,button,.cont-2 p{
+        position: relative;
+        top: 25%;
+        text-align: center;
+        color: white;
+       margin: auto;
+       line-height: 40px;
+       font-weight: 700;
+    } */
+
+    .cont-2 .image{
+        background:  linear-gradient(45deg, black, transparent),url("images/shops.webp");
+        background-size: cover;
+        opacity: 0.8;
+        position: relative;
+    }
+    .cont-2 h1{
+        color: white;
+        font-weight: 800;
+    } 
+    .cont-2 h1 span{
+        font-weight: 400;
+        border-bottom: 4px solid #82B440;
+    }
+    .cont-2 button{
+    background: #82B440;
+    padding: 12px 30px 12px 30px;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    }
+    .cont-2 p{
+        margin-top: 7px;
+        font-size: 19px;
+        color: white;
+    }
+    .cont-4 h1{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .cont-4 h1 + p{
+        text-align: center;
+        font-size: 22px;
+        margin-bottom: 46px;
+    }
+    .cont-4 h4{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .cont-4 h4 + h6{
+        font-size: 15px;
+    }
+    .cont-4 h6{
+        font-weight: bold;
+        font-size: 17px;
+    }
+    
+    .cart{
+        padding: 1px 5px;
+        border-radius:50%;
+  
+      }  
+  
+    .cont-5{
+        margin-top: 60px;
+        background: black;
+        position: relative;
+        padding: 25px 0;
+    }
+    .cont-5 span{
+        font-weight: bold;
+        font-size: 18px;
+        color: #0fd30f;
+    }
+    .cont-5 h2{
+        font-size: 33px;
+        font-weight: 700;
+        margin-bottom: 16px;
+    }
+    .cont-5 a{
+        background: #0fd30f;
+        color: white;
+        font-weight: 600;
+        padding: 10px 20px;
+    }
+    .cont-5 a:hover{
+        background: gainsboro;
+        color: black;
+    }
+    .cont-6 p{
+        font-weight: 700;
+        color: #0fd30f;
+        margin-bottom: 34px;
+    }
+    .cont-6 button{
+        background: black;
+        color: white;
+    }
+    .cont-7{
+        background-color: rgb(11, 10, 10);
+        text-align: center;
+        padding-bottom: 10px !important;
+        margin-top: 41px;
+        color: white;
+    }
+    .cont-7 p{
+        margin-top: 36px;
+         color: #0fd30f;
+         font-size: 20px;
+    }
+    .cont-7 p span{
+        border-bottom: 2px solid #0fd30f;
+    }
+    .cont-7 a{
+        text-decoration: none;
+        line-height: 30px;
+    }
+    .cont-7 a img{
+        border-radius: 9px;
+    }
+    .cont-8{
+        padding-top: 10px;
+    }
+    @media screen and (max-width:768px){
+     /* .cont-4 .block{
+            display:block;
+        } */
+        .cont-2 .image{
+            height: 250px;
+        }
+        .cont-2 h1{
+            margin-top: 30px !important;
+        }
+        .cont-2 .desc-image img{
+            width: 100%;
+            height: 250px;
+        }
+      }
+      @media screen and (max-width:990px){
+
+       /* .cont-4 .block{
+            display:none;
+        } */
+      }
+      @media screen and (max-width:1000px) {
+       
+        .cont-2 h1 {
+            color: white;
+        
+        }
+        
+    }
+    @media screen and (max-width:900px){
+        /* .cont-2 .desc-image{
+            display: none;
+        } */
+        .cont-2 h1{
+            margin-top: -39px !important;
+        }
+    }
+    @media screen and (max-width:820px){
+        #navbarSupportedContent ul li{
+            text-align: center;
+            }  
+            .active{
+                color: aqua;
+            }
+    
+             #navbarSupportedContent ul li a:hover {
+                color: aqua;
+            }
+          
+    }
+    
+    
+    
+    
+    
+    
